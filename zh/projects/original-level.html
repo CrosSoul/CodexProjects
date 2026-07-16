@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ray Zheng使用Unreal Engine 5独立设计并制作的ARPG关卡原型展示。">
+  <title>ARPG Level Prototyping Showcase — Ray Zheng</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <script src="../../assets/site.js" defer></script>
+</head>
+<body class="zh-page">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="../index.html"><span class="brand-mark">RZ</span><span>Ray Zheng</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>菜单</button>
+    <nav class="site-nav" id="site-nav" data-nav>
+      <a href="../index.html#work">作品</a>
+      <a href="../index.html#about">关于我</a>
+      <a href="https://www.linkedin.com/in/ray-zerui-zheng-449203217/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:zz2916@nyu.edu">联系</a>
+      <a class="language-link" href="../../projects/original-level.html" lang="en">EN</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="case-hero section-shell">
+      <a class="back-link" href="../index.html#work">← 返回作品列表</a>
+      <p class="eyebrow reveal">原创关卡 · Unreal Engine 5</p>
+      <h1 class="reveal">ARPG Level Prototyping Showcase</h1>
+      <p class="case-intro reveal">一个第三人称ARPG白盒关卡，围绕空间再认知、风险收益路线、战斗节奏，以及开通捷径后的回归体验展开。</p>
+      <dl class="project-meta reveal">
+        <div><dt>职责</dt><dd>关卡设计</dd></div>
+        <div><dt>引擎</dt><dd>Unreal Engine 5.5</dd></div>
+        <div><dt>形式</dt><dd>个人作品集项目</dd></div>
+        <div><dt>状态</dt><dd>持续完善中</dd></div>
+      </dl>
+    </header>
+
+    <figure class="case-cover project-cover section-shell reveal">
+      <img src="../../assets/images/arpg-showcase-cover.webp" alt="ARPG关卡原型展示封面：一名战士走向哥特式教堂">
+      <figcaption>项目封面图。下方为实际可玩关卡视频与设计文档。</figcaption>
+    </figure>
+
+    <section class="section-shell media-block reveal">
+      <div class="video-embed bilibili-embed">
+        <iframe src="https://player.bilibili.com/player.html?bvid=BV135Ma6aEf3&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0" title="ARPG关卡原型展示中文版完整视频" loading="lazy" scrolling="no" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video-meta">
+        <span>中文版完整展示 · 2560×1440 · 60帧</span>
+        <a href="https://www.bilibili.com/video/BV135Ma6aEf3" target="_blank" rel="noopener">前往哔哩哔哩观看 ↗</a>
+      </div>
+    </section>
+
+    <section class="case-section section-shell two-column">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · 项目概览</p>
+        <h2>让玩家逐步读懂空间，并最终掌握它。</h2>
+      </div>
+      <div class="prose reveal">
+        <p>关卡以清晰的主线路径为骨架，在其中穿插立体交叉、可选空间和阶段性回环。玩家再次经过熟悉区域时，会从新的高度、方向或路线重新理解之前见过的空间。</p>
+        <p>这一页面将随截图和迭代材料继续补充，包括更具体的战斗节拍、空间尺度与测试结论。</p>
+      </div>
+    </section>
+
+    <section class="case-section section-shell">
+      <div class="section-heading reveal"><p class="eyebrow">02 · 设计支柱</p><h2>白盒阶段始终围绕三个问题。</h2></div>
+      <div class="pillar-grid">
+        <article class="pillar reveal"><span>01</span><h3>玩家能否读懂目标？</h3><p>通过视线、明暗对比、构图框景与地标关系建立方向感，同时保留探索空间。</p></article>
+        <article class="pillar reveal"><span>02</span><h3>移动能否带来新理解？</h3><p>利用垂直路线，让同一空间从上方、下方与对面呈现新的意义。</p></article>
+        <article class="pillar reveal"><span>03</span><h3>回归是否值得？</h3><p>将电梯和拉杆设计成真正压缩路程的功能性捷径，让玩家确认自己已经掌握关卡。</p></article>
+      </div>
+    </section>
+
+    <section class="case-section section-shell">
+      <div class="section-heading reveal"><p class="eyebrow">03 · 关卡流程</p><h2>主线、支线与立体回环。</h2></div>
+      <article class="flow-study reveal">
+        <a class="flow-image" href="../../assets/images/demo-full-level.webp" target="_blank" rel="noopener" aria-label="打开全关卡高清流程图">
+          <img src="../../assets/images/demo-full-level.webp" alt="标注了主线、支线、敌人、篝火、上下楼与捷径的全关卡俯视流程图">
+        </a>
+        <div class="flow-notes">
+          <p class="project-kicker">全关卡流程</p>
+          <h3>一条主线，多次节奏转换。</h3>
+          <p>整体动线连接室外路径、建筑内部、地下洞穴与教堂战斗区域。支路通过奖励、敌人和空间变化创造短暂偏离，随后重新汇入主要流程。</p>
+          <ul class="diagram-legend" aria-label="流程图图例">
+            <li><span class="legend-line legend-critical"></span>主动线</li><li><span class="legend-line legend-optional"></span>次动线</li>
+            <li><span class="legend-line legend-underground"></span>地下路线</li><li><span class="legend-symbol legend-checkpoint">⚑</span>篝火补给点</li>
+            <li><span class="legend-symbol legend-enemy">⊗</span>敌人</li><li><span class="legend-symbol legend-vertical">⇅</span>上下楼</li>
+            <li><span class="legend-symbol legend-shortcut">⌁</span>捷径机关</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="flow-study flow-study-reverse reveal">
+        <a class="flow-image" href="../../assets/images/demo-church-flow.webp" target="_blank" rel="noopener" aria-label="打开教堂高清流程图">
+          <img src="../../assets/images/demo-church-flow.webp" alt="展示教堂多层路线、敌人位置、上下层切换与捷径的四张俯视图">
+        </a>
+        <div class="flow-notes">
+          <p class="project-kicker">教堂战斗小箱庭</p>
+          <h3>四层路线交叠在同一个战斗空间。</h3>
+          <p>教堂不是一条单向走廊，而是一个紧凑的多层小箱庭。一楼战斗、高层路径、跳下点和捷径不断从新角度穿过同一空间。</p>
+          <p class="flow-hint">点击流程图可以查看高清版本。</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="case-section section-shell">
+      <div class="section-heading reveal"><p class="eyebrow">04 · 设计拆解</p><h2>接下来重点补充的三个设计案例。</h2></div>
+      <div class="breakdown-list">
+        <article class="breakdown reveal"><div class="media-slot">开场引导素材</div><div><span>01</span><h3>建立方向感</h3><p>开场构图如何传达第一个目标，并提前展示之后会到达的区域。</p></div></article>
+        <article class="breakdown reveal"><div class="media-slot">电梯捷径素材</div><div><span>02</span><h3>电梯回环</h3><p>上下层拉杆、电梯状态与路线关系如何共同构成空间进度。</p></div></article>
+        <article class="breakdown reveal"><div class="media-slot">战斗布置素材</div><div><span>03</span><h3>风险与奖励</h3><p>通过敌人、拾取物和可选区域有意识地改变探索与战斗节奏。</p></div></article>
+      </div>
+    </section>
+
+    <section class="next-project section-shell reveal">
+      <p class="eyebrow">下一个项目</p>
+      <a href="kcd2-analysis.html"><span>商业游戏关卡分析</span><strong>绝境丧钟</strong><span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>© <span data-year></span> Ray Zheng</span><span class="footer-links"><a href="https://www.linkedin.com/in/ray-zerui-zheng-449203217/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:zz2916@nyu.edu">zz2916@nyu.edu</a></span></footer>
+</body>
+</html>

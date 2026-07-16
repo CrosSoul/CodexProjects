@@ -96,6 +96,15 @@ button, input, textarea { font: inherit; }
   transition: color 160ms ease;
 }
 .site-nav a:hover, .site-nav a:focus-visible { color: var(--text); }
+.site-nav .language-link {
+  padding: 3px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 11px;
+  letter-spacing: .06em;
+}
+.site-nav .language-link:hover { border-color: var(--accent); color: var(--accent-soft); }
 .nav-toggle {
   display: none;
   border: 0;
@@ -473,6 +482,17 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; }
 .has-reveal .reveal { opacity: 0; transform: translateY(18px); transition: opacity 650ms ease, transform 650ms ease; }
 .has-reveal .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
+.zh-page {
+  --display: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", "Segoe UI", sans-serif;
+  letter-spacing: .01em;
+}
+.zh-page h1, .zh-page h2, .zh-page h3 { letter-spacing: -.025em; line-height: 1.16; }
+.zh-page h1 { font-weight: 720; }
+.zh-page h2, .zh-page h3 { font-weight: 700; }
+.zh-page .hero h1 { max-width: 770px; }
+.zh-page .hero-lede, .zh-page .case-intro { line-height: 1.75; }
+.zh-page .prose { line-height: 1.85; }
+
 @media (max-width: 900px) {
   :root { --shell: min(100% - 32px, 720px); }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 78px; }
@@ -507,6 +527,7 @@ figcaption { margin-top: 12px; color: var(--muted); font-size: 12px; }
   }
   .site-nav.is-open { display: flex; }
   .site-nav a { padding: 13px 4px; }
+  .site-nav .language-link { width: max-content; margin: 8px 0; padding: 5px 12px; }
   .hero { padding-block: 64px 78px; }
   h1 { font-size: clamp(46px, 15vw, 72px); }
   h2 { font-size: 40px; }

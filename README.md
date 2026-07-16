@@ -7,7 +7,7 @@ Static portfolio website prepared for GitHub Pages.
 - `index.html` — portfolio landing page
 - `projects/original-level.html` — original UE5 level case study
 - `projects/kcd2-analysis.html` — Kingdom Come: Deliverance II level analysis
-- `assets/` — shared styles, scripts, and project images
+- `assets/` — shared styles, scripts, images, and the full analysis PDF
 
 ## Local preview
 
@@ -21,5 +21,4 @@ python -m http.server 8000
 
 - Replace the UE5 video placeholder with the final YouTube embed.
 - Add final UE5 screenshots, annotated top-down map, and iteration comparisons.
-- Add the finalized English analysis PDF after the author-name pass.
 - Add resume and LinkedIn links after confirmation.

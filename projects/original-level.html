@@ -67,13 +67,39 @@
     <section class="case-section section-shell">
       <div class="section-heading reveal">
         <p class="eyebrow">03 · Level flow</p>
-        <h2>Critical path, optional pressure, and loopback.</h2>
+        <h2>Critical path, optional routes, and layered loopbacks.</h2>
       </div>
-      <div class="map-placeholder reveal">
-        <div class="map-grid"></div>
-        <div class="map-route"></div>
-        <p><strong>Annotated map slot</strong><br>Final overhead map and player-flow diagram will replace this panel.</p>
-      </div>
+      <article class="flow-study reveal">
+        <a class="flow-image" href="../assets/images/demo-full-level.webp" target="_blank" rel="noopener" aria-label="Open full-resolution level flow map">
+          <img src="../assets/images/demo-full-level.webp" alt="Annotated overhead map of the complete level showing the critical path, optional routes, enemies, checkpoints, vertical transitions, and shortcut mechanisms">
+        </a>
+        <div class="flow-notes">
+          <p class="project-kicker">Whole-level flow</p>
+          <h3>One critical route, multiple changes of pace.</h3>
+          <p>The macro layout connects exterior approaches, interior spaces, a cave route, and the church arena. Optional branches add pickups and combat pressure before reconnecting with the main route.</p>
+          <ul class="diagram-legend" aria-label="Map legend translated into English">
+            <li><span class="legend-line legend-critical"></span>Critical path</li>
+            <li><span class="legend-line legend-optional"></span>Optional route</li>
+            <li><span class="legend-line legend-underground"></span>Underground route</li>
+            <li><span class="legend-symbol legend-checkpoint">⚑</span>Checkpoint</li>
+            <li><span class="legend-symbol legend-enemy">⊗</span>Enemy</li>
+            <li><span class="legend-symbol legend-vertical">⇅</span>Vertical transition</li>
+            <li><span class="legend-symbol legend-shortcut">⌁</span>Shortcut mechanism</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="flow-study flow-study-reverse reveal">
+        <a class="flow-image" href="../assets/images/demo-church-flow.webp" target="_blank" rel="noopener" aria-label="Open full-resolution church flow diagram">
+          <img src="../assets/images/demo-church-flow.webp" alt="Four annotated overhead views of the church combat sandbox showing floor changes, branching routes, enemy positions, checkpoints, and shortcuts">
+        </a>
+        <div class="flow-notes">
+          <p class="project-kicker">Church combat sandbox</p>
+          <h3>Routes overlap across four levels.</h3>
+          <p>The church is treated as a compact multi-level sandbox rather than a single corridor. Ground-floor movement, elevated paths, drop-downs, and shortcuts repeatedly cross the same combat space from new angles.</p>
+          <p class="flow-hint">Select either diagram to inspect the full-resolution version.</p>
+        </div>
+      </article>
     </section>
 
     <section class="case-section section-shell">
